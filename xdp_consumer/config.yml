@@ -1,9 +1,9 @@
 auth:
   rabbit_user: admin
-  rabbit_pass: CDN@99
+  rabbit_pass: testpass
 
 rabbit_hosts:
-  host: 93.113.225.49
+  host: a.b.c.d
 
 ## If the interfaces are bonded together, define each one separately here.
 ## On CDN nodes find it out this way: sudo cat /proc/net/bonding/bond0 | grep "Slave Interface"
