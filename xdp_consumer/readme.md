@@ -1,4 +1,4 @@
-# WaaP Project
+# Firewall Project
 ### XDP Firewall Consumer
 
 -----
@@ -15,7 +15,7 @@ filter will be removed from device NIC but at the start, it will load the db fil
 
 #### Install
 On consumer side (Here by consumer, we meant CDN nodes)
-You can see the full Documentation on "https://docs.digikala.com/display/CTD/2.3.+Consumer+Preperation"
+
 ```
 sudo apt-get install python-pip
 sudo apt-get install bpfcc-tools linux-headers-$(uname -r)
