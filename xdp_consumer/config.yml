@@ -1,0 +1,12 @@
+auth:
+  rabbit_user: admin
+  rabbit_pass: CDN@99
+
+rabbit_hosts:
+  host: 93.113.225.49
+
+## If the interfaces are bonded together, define each one separately here.
+## On CDN nodes find it out this way: sudo cat /proc/net/bonding/bond0 | grep "Slave Interface"
+devices:
+  - ens1f1
+  - ens1f0
